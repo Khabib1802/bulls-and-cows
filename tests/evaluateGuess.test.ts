@@ -17,7 +17,7 @@ describe('evaluateGuess', () => {
   it('returns mixed bulls and cows for a partially correct guess', () => {
     const result = evaluateGuess('4271', '1237');
 
-    expect(result).toEqual({ bulls: 2, cows: 1 });
+    expect(result).toEqual({ bulls: 1, cows: 2 });
   });
 
   it('returns zero bulls and cows when no digits match', () => {
