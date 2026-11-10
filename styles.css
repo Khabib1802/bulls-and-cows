@@ -1,0 +1,31 @@
+body {
+  max-width: 480px;
+  margin: 20px auto;
+  padding: 0 10px;
+  font-family: Arial, sans-serif;
+}
+
+button,
+select,
+input {
+  font-size: 16px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #999;
+  padding: 4px 10px;
+  text-align: left;
+}
+
+.message {
+  color: #c00;
+}
+
+.win {
+  font-weight: bold;
+}
